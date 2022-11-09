@@ -231,4 +231,8 @@ footer p {
     width: 50%;
     flex:1;
   }
+  header nav ul li:last-child a{
+    padding-right:0px;
+    margin-right: 0px;
+  }
 }
