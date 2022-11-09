@@ -59,7 +59,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -146,13 +146,29 @@ footer p {
 @media all and (min-width: 480px){
   form{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
   }
-  form div{
+  form select, form input{
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  form button{
+   font-size: 1em;
+  }
+  .group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item{
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 10%;
+  }
+  .logo{
+    font-size: 40px;
+    padding: 10px 0 10px 0
   }
 
   #about div{
@@ -177,7 +193,7 @@ footer p {
   }
 
   header{
-    width: 100;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
